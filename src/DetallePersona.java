@@ -9,6 +9,7 @@ public class DetallePersona {
         System.out.println("Nombre: " + nombreCompleto);
         System.out.println("Edad: " + edad);
         System.out.println("Altura: " + altura);
+        System.out.println("Pais de Origen: " + paisOrigen);
         System.out.println("Estado Civil: " + ((estCivil == 'C') ? "Casado" : "Soltero"));
 
     }
