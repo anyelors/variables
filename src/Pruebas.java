@@ -47,6 +47,9 @@ public class Pruebas {
         // 2.filter(); Method - find odd number
         list.stream().filter(x -> x % 2 != 0).forEach(System.out::println);
 
+        // 3. map(); Method - double the number
+        list.stream().map(x -> x * 2).forEach(System.out::println);
+
     }
 
 }
